@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding: 0.5px;
+}
+.logo{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 20%;
+    border: 3px bl;
+    border-radius: 50px;
+
+}
+.navbar{
+    display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.nav-list{
+    width:50%;
+    /* background-color:cornflowerblue; */
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px 20px;
+
+}
+
+.nav-list li a{
+     text-decoration:none ;
+     color:blue;
+
+}
+
+.nav-list li a:hover{
+    text-decoration:none ;
+    color:red;
+
+}
+.rightNav{
+    /* background-color:cornflowerblue; */
+    width: 55%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding:2px;
+    font-size:14px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.500) url('../img/CGC.jpg.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 75%;
+     margin: auto;
+     height: 70%;
+}
+
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+
+}
+
+.secondHalf img{
+    
+    border: 2px solid white;
+}
+.text-big{
+    font-size: 35px;
+    /* text-align: center; */
+    color:rgba(234, 238, 28, 0.986);
+
+}
+
+.text-small{
+    font-size: 16px;
+    color:white;
+
+}
+
+.btn{
+    padding: 6px 15px;
+    margin: 9px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    background:blue;
+    color: white ;
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: none;
+    color:black;
+
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align:middle;
+    
+}
+.section{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width: 100%;
+    margin: auto;
+    /* font-family: 'Ubuntu', sans-serif; */
+    background:lightgray;
+    padding: 0.5px;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionTag{
+    color:blue;
+    padding: 10px 0px;
+}
+.section-left{
+    
+    flex-direction: row-reverse;
+    
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.thumbnailimg{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 19px;
+}
